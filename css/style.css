@@ -7,7 +7,7 @@ body {
   font-size: 14px;
   color: #666;
   line-height: 1.8em;
-  background: #764721;
+  background: #ecf726;
 }
 .container {
   width: 50%;
@@ -28,7 +28,7 @@ h6 {
   margin-bottom: 10px;
 }
 a {
-  color: #f67f17;
+  color: #69e52b;
   text-decoration: none;
 }
 ul,
@@ -40,7 +40,7 @@ li {
 }
 nav {
   height: 30px;
-  background: #f67f17;
+  background: #69e52b;
   color: #fff;
   padding: 5px 5px 0px 5px;
 }
@@ -65,8 +65,8 @@ header {
   padding: 10px;
 }
 .showcase {
-  border-top: #f67f17 5px solid;
-  border-bottom: #f67f17 5px solid;
+  border-top: #69e52b 5px solid;
+  border-bottom: #69e52b 5px solid;
 }
 .showcase img {
   width: 100%;
@@ -77,4 +77,23 @@ header {
 }
 .content {
   padding: 10px 15px;
+}
+.specials {
+  margin: 20px 0;
+}
+.specials li {
+  width: 33%;
+  float: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.specials img {
+  width: 100%;
+  padding: 3px;
+  border: 1px solid #ccc;
+}
+.new-items {
+  margin: 20px 0;
 }
